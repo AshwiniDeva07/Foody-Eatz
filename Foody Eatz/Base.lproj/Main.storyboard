@@ -40,9 +40,33 @@
                         <outlet property="bannerCollectionView" destination="Ra9-NG-HOb" id="NaQ-Ee-5E0"/>
                         <outlet property="bannerView" destination="mY7-ss-kUR" id="tco-cK-X3O"/>
                         <outlet property="foodCategoryTableView" destination="3z0-oM-cg3" id="klI-v1-2xB"/>
+                        <outlet property="welcomeText" destination="Rh0-eh-pKW" id="Gvk-Ek-kJ6"/>
+                        <outlet property="welcomeView" destination="ryk-tF-dB6" id="atT-01-2ys"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="ryk-tF-dB6">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="477"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to ABC Bank" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rh0-eh-pKW">
+                            <rect key="frame" x="15" y="188.5" width="210" height="100"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="100" id="LYC-2c-ydn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstItem="Rh0-eh-pKW" firstAttribute="centerY" secondItem="ryk-tF-dB6" secondAttribute="centerY" id="4oH-1s-kuE"/>
+                        <constraint firstItem="lli-8m-IMv" firstAttribute="trailing" secondItem="Rh0-eh-pKW" secondAttribute="trailing" constant="15" id="H1n-8w-N0D"/>
+                        <constraint firstItem="Rh0-eh-pKW" firstAttribute="leading" secondItem="lli-8m-IMv" secondAttribute="leading" constant="15" id="WBl-C6-d2a"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="lli-8m-IMv"/>
+                </view>
                 <view contentMode="scaleToFill" id="mY7-ss-kUR">
                     <rect key="frame" x="0.0" y="0.0" width="240" height="223"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

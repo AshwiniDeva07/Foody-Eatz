@@ -50,6 +50,7 @@ class FoodDetailsViewController: UIViewController,UITextViewDelegate{
         ])
         
         foodDescriptionView.roundTop(radius: 20)
+        foodDescriptionView.backgroundColor = .black
         
         //Parsing Image
         switch  foodDetails?.foodImage{
@@ -70,12 +71,14 @@ class FoodDetailsViewController: UIViewController,UITextViewDelegate{
         }
         
         foodName.setCenterlabelProp()
-        foodName.textColor  = UIColor.black
+        //foodName.textColor  = UIColor.black
         foodName.text = foodDetails?.foodName
         
         locationImg.image = UIImage(named: "location")
         locationName.text = foodDetails?.location
         locationName.setleftlabelProp()
+
+        
         
         if isOrdered {
             foodOrderBtn.setTitle("Cancel Item", for: .normal)
@@ -92,7 +95,8 @@ class FoodDetailsViewController: UIViewController,UITextViewDelegate{
         foodOrderBtn.layer.cornerRadius = 5
         
         foodDescriptionTextView.text = foodDetails?.info
-        foodDescriptionTextView.textColor = UIColor.black
+        foodDescriptionTextView.backgroundColor = .black
+        foodDescriptionTextView.textColor = UIColor.white
         foodDescriptionTextView.textContainer.lineFragmentPadding = 0
         foodDescriptionTextView.textContainerInset = .zero
         foodDescriptionTextView.setContentOffset(.zero, animated: false)

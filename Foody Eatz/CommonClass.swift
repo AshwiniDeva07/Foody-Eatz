@@ -31,7 +31,7 @@ extension UILabel{
     }
     
     func setleftlabelProp() {
-        self.textColor = UIColor.black
+        self.textColor = UIColor.white
         self.font = UIFont.boldSystemFont(ofSize: 12)
         self.backgroundColor = UIColor.clear
         self.textAlignment = .left

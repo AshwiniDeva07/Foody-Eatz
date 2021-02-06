@@ -11,9 +11,12 @@ import UIKit
 class HomeViewController: UIViewController {
     
     @IBOutlet var foodCategoryTableView: UITableView!
-    
     @IBOutlet var bannerView: UIView!
     @IBOutlet var bannerCollectionView: UICollectionView!
+    
+ 
+    @IBOutlet var welcomeView: UIView!
+    @IBOutlet var welcomeText: UILabel!
     
     
     var hiddenSections = Set<Int>()
@@ -62,6 +65,22 @@ class HomeViewController: UIViewController {
         foodItemsList = homeVM.readJsonFile()
         print("FoodItems",foodItemsList ?? FoodItemsList_Base.self)
         
+        self.view.addSubview(welcomeView)
+        welcomeView.backgroundColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
+        welcomeText.text = "Foody Eatz"
+        welcomeText.font = UIFont.boldSystemFont(ofSize: 30)
+        welcomeText.textAlignment = .center
+        welcomeText.textColor = UIColor.white
+        welcomeView.frame = self.view.frame
+        
+        foodCategoryTableView.isHidden = true
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            // Put your code which should be executed with a delay here
+            self.welcomeView.isHidden = true
+            self.foodCategoryTableView.isHidden = false
+            
+        }
         
     }
     
@@ -371,6 +390,9 @@ extension HomeViewController : UICollectionViewDelegate,UICollectionViewDataSour
             cell.backgroundColor = .black
             cell.bannerView.backgroundColor = .black
             cell.bannerView.layer.cornerRadius = 5
+            cell.bannerImage.backgroundColor = .black
+            cell.bannerImage.layer.cornerRadius = 10
+            cell.bannerImage.contentMode = .scaleToFill
             
             switch  foodItemsList?.bannerData?[indexPath.item]{
             case "image1":
