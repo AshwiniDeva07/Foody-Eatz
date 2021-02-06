@@ -1,0 +1,53 @@
+{
+    "message": "Success",
+    "status": 200,
+    "error": "",
+    "bannerData": ["image1", "image2", "image3","image4"],
+    "categoryList" : ["bannerImages","Pizza","Burger"],
+    "foodItems": [[
+    ],
+        [
+        {
+            "location": "24 1, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+            "id" : 100,
+            "shopName": "JW Kitchen",
+            "price": "Rs 100",
+            "offer": "60%",
+            "foodImage": "Neapolitan",
+            "info": "Neapolitan is the original pizza. This delicious pie dates all the way back to 18th century in Naples, Italy. During this time, the poorer citizens of this seaside city frequently purchased food that was cheap and could be eaten quickly. Luckily for them, Neapolitan pizza was affordable and readily available through numerous street vendors.",
+            "foodName": "Neapolitan Pizza"
+        }, {
+            "location": "24/1, Vittal Mallya Road, Ashok Nagar, Bengaluru, Karnataka 560001",
+            "shopName": "Alba",
+            "id" : 101,
+            "price": "Rs 120",
+            "offer": "10%",
+            "foodImage": "Chicago",
+            "info": "Chicago pizza, also commonly referred to as deep-dish pizza, gets its name from the city it was invented in. During the early 1900’s, Italian immigrants in the windy city were searching for something similar to the Neapolitan pizza that they knew and loved. Instead of imitating the notoriously thin pie, Ike Sewell had something else in mind. He created a pizza with a thick crust that had raised edges, similar to a pie, and ingredients in reverse, with slices of mozzarella lining the dough followed by meat, vegetables, and then topped with a can of crushed tomatoes. This original creation led Sewell to create the now famous chain restaurant, Pizzeria Uno.",
+            "foodName": "Chicago Pizza"
+        }
+    ],
+    [
+         {
+            "location": "24, JW Marriott Bengaluru, 1, Vittal Mallya Rd, Ashok Nagar, Bengaluru, Karnataka 560001",
+            "shopName": "Spice Terrace",
+            "id" : 200,
+            "price": "Rs 240",
+            "offer": "30%",
+            "foodImage": "Veggie",
+            "info": "veggie burgers—some really slay while others are just cray. Traditional veggie burgers are typically satisfying and a great way to slash artery-clogging saturated fat when used to replace hamburgers, the Nutrition Twins advise. Plus, using veggie burgers reduces exposure to heterocyclic amines, the carcinogens created when meat is heated on the grill at high temperatures",
+            "foodName": "Veggie Burgers"
+        }, {
+            "location": "24, Vittal Mallya Rd, KG Halli, Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka 560001",
+            "shopName": "Toscano",
+            "id" : 201,
+            "price": "Rs 290",
+            "offer": "20%",
+            "foodImage": "Bison",
+            "info": "Flavor-wise, bison is just about as close as you can get to beef. It's tender and even a bit sweet. But its nutritional profile makes it a much healthier option than a par-for-the-course ground beef burger. A 90% lean hamburger has about 10 grams of fat, according to the USDA. But a bison burger (AKA buffalo burger), by comparison, has 2 grams of fat and 24 grams of protein—making it a lean, mean protein! Even though it's not plant-based, bison earned its rank higher up on the list because you can truly satisfy your burger craving with a healthy doppelgänger…and your chances of sabotaging with unhealthy condiments to try to make it taste great are lower.",
+            "foodName": "Bison Burgers"
+        }
+    
+]],
+"process": 0
+}

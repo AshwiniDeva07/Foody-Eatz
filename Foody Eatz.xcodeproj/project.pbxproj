@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B2CB14725CE2DC800A189DC /* FoodDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = 8B2CB14625CE2DC800A189DC /* FoodDetails.json */; };
+		8B2CB14A25CE33DF00A189DC /* FoodItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CB14825CE33DF00A189DC /* FoodItems.swift */; };
+		8B2CB14B25CE33DF00A189DC /* FoodItemsList_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CB14925CE33DF00A189DC /* FoodItemsList_Base.swift */; };
+		8B2CB14E25CE345400A189DC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CB14D25CE345400A189DC /* HomeViewModel.swift */; };
 		8B4DECBB25CD365E001456FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECBA25CD365E001456FA /* AppDelegate.swift */; };
 		8B4DECBD25CD365E001456FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECBC25CD365E001456FA /* SceneDelegate.swift */; };
-		8B4DECBF25CD365E001456FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECBE25CD365E001456FA /* ViewController.swift */; };
 		8B4DECC225CD365E001456FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DECC025CD365E001456FA /* Main.storyboard */; };
 		8B4DECC525CD365F001456FA /* Foody_Eatz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECC325CD365F001456FA /* Foody_Eatz.xcdatamodeld */; };
 		8B4DECC725CD366A001456FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DECC625CD366A001456FA /* Assets.xcassets */; };
 		8B4DECCA25CD366A001456FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DECC825CD366A001456FA /* LaunchScreen.storyboard */; };
 		8B4DECD525CD366A001456FA /* Foody_EatzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECD425CD366A001456FA /* Foody_EatzTests.swift */; };
 		8B4DECE025CD366A001456FA /* Foody_EatzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECDF25CD366A001456FA /* Foody_EatzUITests.swift */; };
+		8B4DECF525CD3983001456FA /* FoodDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECF425CD3983001456FA /* FoodDetailsViewController.swift */; };
+		8B4DECF725CD3E93001456FA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECF625CD3E93001456FA /* HomeViewController.swift */; };
+		8B4DECFA25CD3F72001456FA /* FoodListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECF825CD3F72001456FA /* FoodListTableViewCell.swift */; };
+		8B4DECFB25CD3F72001456FA /* FoodListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DECF925CD3F72001456FA /* FoodListTableViewCell.xib */; };
+		8B4DECFD25CD58F3001456FA /* CommonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECFC25CD58F3001456FA /* CommonClass.swift */; };
+		8B4DED0025CD6CFD001456FA /* BannerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DECFE25CD6CFD001456FA /* BannerCollectionViewCell.swift */; };
+		8B4DED0125CD6CFD001456FA /* BannerCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DECFF25CD6CFD001456FA /* BannerCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B2CB14625CE2DC800A189DC /* FoodDetails.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FoodDetails.json; sourceTree = "<group>"; };
+		8B2CB14825CE33DF00A189DC /* FoodItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItems.swift; sourceTree = "<group>"; };
+		8B2CB14925CE33DF00A189DC /* FoodItemsList_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItemsList_Base.swift; sourceTree = "<group>"; };
+		8B2CB14D25CE345400A189DC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		8B4DECB725CD365E001456FA /* Foody Eatz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foody Eatz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4DECBA25CD365E001456FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B4DECBC25CD365E001456FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B4DECBE25CD365E001456FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B4DECC125CD365E001456FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B4DECC425CD365F001456FA /* Foody_Eatz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foody_Eatz.xcdatamodel; sourceTree = "<group>"; };
 		8B4DECC625CD366A001456FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +64,13 @@
 		8B4DECDB25CD366A001456FA /* Foody EatzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foody EatzUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4DECDF25CD366A001456FA /* Foody_EatzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foody_EatzUITests.swift; sourceTree = "<group>"; };
 		8B4DECE125CD366A001456FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4DECF425CD3983001456FA /* FoodDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailsViewController.swift; sourceTree = "<group>"; };
+		8B4DECF625CD3E93001456FA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8B4DECF825CD3F72001456FA /* FoodListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodListTableViewCell.swift; sourceTree = "<group>"; };
+		8B4DECF925CD3F72001456FA /* FoodListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodListTableViewCell.xib; sourceTree = "<group>"; };
+		8B4DECFC25CD58F3001456FA /* CommonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonClass.swift; sourceTree = "<group>"; };
+		8B4DECFE25CD6CFD001456FA /* BannerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewCell.swift; sourceTree = "<group>"; };
+		8B4DECFF25CD6CFD001456FA /* BannerCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BannerCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B2CB14C25CE342300A189DC /* HomeViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CB14D25CE345400A189DC /* HomeViewModel.swift */,
+			);
+			path = HomeViewModel;
+			sourceTree = "<group>";
+		};
 		8B4DECAE25CD365E001456FA = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +129,16 @@
 		8B4DECB925CD365E001456FA /* Foody Eatz */ = {
 			isa = PBXGroup;
 			children = (
+				8B4DECED25CD3877001456FA /* Home */,
+				8B4DECF025CD38AC001456FA /* Food Details */,
 				8B4DECBA25CD365E001456FA /* AppDelegate.swift */,
 				8B4DECBC25CD365E001456FA /* SceneDelegate.swift */,
-				8B4DECBE25CD365E001456FA /* ViewController.swift */,
 				8B4DECC025CD365E001456FA /* Main.storyboard */,
 				8B4DECC625CD366A001456FA /* Assets.xcassets */,
 				8B4DECC825CD366A001456FA /* LaunchScreen.storyboard */,
 				8B4DECCB25CD366A001456FA /* Info.plist */,
 				8B4DECC325CD365F001456FA /* Foody_Eatz.xcdatamodeld */,
+				8B4DECFC25CD58F3001456FA /* CommonClass.swift */,
 			);
 			path = "Foody Eatz";
 			sourceTree = "<group>";
@@ -129,6 +159,54 @@
 				8B4DECE125CD366A001456FA /* Info.plist */,
 			);
 			path = "Foody EatzUITests";
+			sourceTree = "<group>";
+		};
+		8B4DECED25CD3877001456FA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CB14C25CE342300A189DC /* HomeViewModel */,
+				8B4DECEF25CD38A2001456FA /* Home Model */,
+				8B4DECEE25CD3894001456FA /* Home View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8B4DECEE25CD3894001456FA /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				8B4DECF625CD3E93001456FA /* HomeViewController.swift */,
+				8B4DECF825CD3F72001456FA /* FoodListTableViewCell.swift */,
+				8B4DECF925CD3F72001456FA /* FoodListTableViewCell.xib */,
+				8B4DECFE25CD6CFD001456FA /* BannerCollectionViewCell.swift */,
+				8B4DECFF25CD6CFD001456FA /* BannerCollectionViewCell.xib */,
+			);
+			path = "Home View";
+			sourceTree = "<group>";
+		};
+		8B4DECEF25CD38A2001456FA /* Home Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CB14825CE33DF00A189DC /* FoodItems.swift */,
+				8B2CB14925CE33DF00A189DC /* FoodItemsList_Base.swift */,
+				8B2CB14625CE2DC800A189DC /* FoodDetails.json */,
+			);
+			path = "Home Model";
+			sourceTree = "<group>";
+		};
+		8B4DECF025CD38AC001456FA /* Food Details */ = {
+			isa = PBXGroup;
+			children = (
+				8B4DECF125CD38C3001456FA /* FoodDetailsView */,
+			);
+			path = "Food Details";
+			sourceTree = "<group>";
+		};
+		8B4DECF125CD38C3001456FA /* FoodDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				8B4DECF425CD3983001456FA /* FoodDetailsViewController.swift */,
+			);
+			path = FoodDetailsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2CB14725CE2DC800A189DC /* FoodDetails.json in Resources */,
 				8B4DECCA25CD366A001456FA /* LaunchScreen.storyboard in Resources */,
+				8B4DECFB25CD3F72001456FA /* FoodListTableViewCell.xib in Resources */,
 				8B4DECC725CD366A001456FA /* Assets.xcassets in Resources */,
 				8B4DECC225CD365E001456FA /* Main.storyboard in Resources */,
+				8B4DED0125CD6CFD001456FA /* BannerCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +343,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4DECBF25CD365E001456FA /* ViewController.swift in Sources */,
+				8B4DECFD25CD58F3001456FA /* CommonClass.swift in Sources */,
+				8B2CB14E25CE345400A189DC /* HomeViewModel.swift in Sources */,
+				8B4DECF725CD3E93001456FA /* HomeViewController.swift in Sources */,
 				8B4DECBB25CD365E001456FA /* AppDelegate.swift in Sources */,
+				8B2CB14B25CE33DF00A189DC /* FoodItemsList_Base.swift in Sources */,
+				8B4DECF525CD3983001456FA /* FoodDetailsViewController.swift in Sources */,
+				8B4DECFA25CD3F72001456FA /* FoodListTableViewCell.swift in Sources */,
+				8B2CB14A25CE33DF00A189DC /* FoodItems.swift in Sources */,
 				8B4DECBD25CD365E001456FA /* SceneDelegate.swift in Sources */,
+				8B4DED0025CD6CFD001456FA /* BannerCollectionViewCell.swift in Sources */,
 				8B4DECC525CD365F001456FA /* Foody_Eatz.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +529,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCV2C86DT7;
 				INFOPLIST_FILE = "Foody Eatz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +548,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZCV2C86DT7;
 				INFOPLIST_FILE = "Foody Eatz/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
